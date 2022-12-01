@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../TPNUM.srcs/sources_1/new/TICK_1ms.vhd" \
+"../../../../TPNUM.srcs/sources_1/new/TICK_1ms_tb.vhd" \
+
+# Do not sort compile order
+nosort

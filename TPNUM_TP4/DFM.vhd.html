@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
+<html>
+<head>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<title>Exported from Notepad++</title>
+<style type="text/css">
+span {
+	font-family: 'Courier New';
+	font-size: 10pt;
+	color: #000000;
+}
+.sc0 {
+}
+.sc1 {
+	color: #008000;
+}
+.sc3 {
+	color: #FF8000;
+}
+.sc4 {
+	color: #808080;
+}
+.sc5 {
+	font-weight: bold;
+	color: #000080;
+}
+.sc6 {
+}
+.sc8 {
+	font-weight: bold;
+	color: #0000FF;
+}
+.sc9 {
+	font-weight: bold;
+	color: #0080C0;
+}
+.sc11 {
+	font-weight: bold;
+	color: #0080FF;
+}
+.sc12 {
+	color: #800000;
+}
+.sc13 {
+	color: #8000FF;
+}
+</style>
+</head>
+<body>
+<div style="float: left; white-space: pre; line-height: 1; background: #FFFFFF; "><span class="sc1">----------------------------------------------------------------------------------</span><span class="sc0">
+</span><span class="sc1">-- Company: </span><span class="sc0">
+</span><span class="sc1">-- Engineer: </span><span class="sc0">
+</span><span class="sc1">-- </span><span class="sc0">
+</span><span class="sc1">-- Create Date: 04.01.2022 11:43:52</span><span class="sc0">
+</span><span class="sc1">-- Design Name: </span><span class="sc0">
+</span><span class="sc1">-- Module Name: DFM - Behavioral</span><span class="sc0">
+</span><span class="sc1">-- Project Name: </span><span class="sc0">
+</span><span class="sc1">-- Target Devices: </span><span class="sc0">
+</span><span class="sc1">-- Tool Versions: </span><span class="sc0">
+</span><span class="sc1">-- Description: </span><span class="sc0">
+</span><span class="sc1">-- </span><span class="sc0">
+</span><span class="sc1">-- Dependencies: </span><span class="sc0">
+</span><span class="sc1">-- </span><span class="sc0">
+</span><span class="sc1">-- Revision:</span><span class="sc0">
+</span><span class="sc1">-- Revision 0.01 - File Created</span><span class="sc0">
+</span><span class="sc1">-- Additional Comments:</span><span class="sc0">
+</span><span class="sc1">-- </span><span class="sc0">
+</span><span class="sc1">----------------------------------------------------------------------------------</span><span class="sc0">
+
+</span><span class="sc8">library</span><span class="sc0"> </span><span class="sc12">IEEE</span><span class="sc5">;</span><span class="sc0">
+</span><span class="sc8">use</span><span class="sc0"> </span><span class="sc12">IEEE</span><span class="sc5">.</span><span class="sc12">STD_LOGIC_1164</span><span class="sc5">.</span><span class="sc8">ALL</span><span class="sc5">;</span><span class="sc0">
+</span><span class="sc8">use</span><span class="sc0"> </span><span class="sc12">IEEE</span><span class="sc5">.</span><span class="sc12">NUMERIC_STD</span><span class="sc5">.</span><span class="sc8">ALL</span><span class="sc5">;</span><span class="sc0">
+
+</span><span class="sc8">entity</span><span class="sc0"> </span><span class="sc6">DFM</span><span class="sc0"> </span><span class="sc8">is</span><span class="sc0">
+    </span><span class="sc8">Port</span><span class="sc0"> </span><span class="sc5">(</span><span class="sc0"> </span><span class="sc6">CLK</span><span class="sc0"> </span><span class="sc5">:</span><span class="sc0"> </span><span class="sc8">in</span><span class="sc0"> </span><span class="sc13">STD_LOGIC</span><span class="sc5">;</span><span class="sc0">
+           </span><span class="sc6">Btn</span><span class="sc0"> </span><span class="sc5">:</span><span class="sc0"> </span><span class="sc8">in</span><span class="sc0"> </span><span class="sc13">STD_LOGIC</span><span class="sc5">;</span><span class="sc0">
+           </span><span class="sc6">Niveau</span><span class="sc0"> </span><span class="sc5">:</span><span class="sc0"> </span><span class="sc8">out</span><span class="sc0"> </span><span class="sc13">STD_LOGIC</span><span class="sc5">;</span><span class="sc0">
+           </span><span class="sc6">Detect</span><span class="sc0"> </span><span class="sc5">:</span><span class="sc0"> </span><span class="sc8">out</span><span class="sc0"> </span><span class="sc13">STD_LOGIC</span><span class="sc5">);</span><span class="sc0">
+</span><span class="sc8">end</span><span class="sc0"> </span><span class="sc6">DFM</span><span class="sc5">;</span><span class="sc0">
+
+</span><span class="sc8">architecture</span><span class="sc0"> </span><span class="sc6">Behavioral</span><span class="sc0"> </span><span class="sc8">of</span><span class="sc0"> </span><span class="sc6">DFM</span><span class="sc0"> </span><span class="sc8">is</span><span class="sc0">
+
+    </span><span class="sc8">signal</span><span class="sc0"> </span><span class="sc6">BtnCurr</span><span class="sc5">,</span><span class="sc6">BtnPrev</span><span class="sc0"> </span><span class="sc5">:</span><span class="sc0"> </span><span class="sc13">STD_LOGIC</span><span class="sc5">:=</span><span class="sc0"> </span><span class="sc4">'0'</span><span class="sc5">;</span><span class="sc0">
+    </span><span class="sc8">signal</span><span class="sc0"> </span><span class="sc6">Q</span><span class="sc5">,</span><span class="sc6">D</span><span class="sc0"> </span><span class="sc5">:</span><span class="sc0"> </span><span class="sc13">STD_LOGIC_VECTOR</span><span class="sc5">(</span><span class="sc3">1</span><span class="sc0"> </span><span class="sc8">downto</span><span class="sc0"> </span><span class="sc3">0</span><span class="sc5">):=</span><span class="sc0"> </span><span class="sc4">"00"</span><span class="sc5">;</span><span class="sc0">
+    </span><span class="sc8">signal</span><span class="sc0"> </span><span class="sc6">EF</span><span class="sc5">,</span><span class="sc6">EP</span><span class="sc0"> </span><span class="sc5">:</span><span class="sc0"> </span><span class="sc13">STD_LOGIC</span><span class="sc5">:=</span><span class="sc0"> </span><span class="sc4">'0'</span><span class="sc5">;</span><span class="sc0">
+    
+</span><span class="sc8">begin</span><span class="sc0">
+    </span><span class="sc1">--PARTIE 1</span><span class="sc0">
+    </span><span class="sc8">process</span><span class="sc5">(</span><span class="sc6">CLK</span><span class="sc5">)</span><span class="sc0"> </span><span class="sc8">begin</span><span class="sc0">
+        </span><span class="sc8">if</span><span class="sc0"> </span><span class="sc11">RISING_EDGE</span><span class="sc0"> </span><span class="sc5">(</span><span class="sc6">CLK</span><span class="sc5">)</span><span class="sc8">then</span><span class="sc0">
+        </span><span class="sc6">BtnCurr</span><span class="sc0"> </span><span class="sc5">&lt;=</span><span class="sc0"> </span><span class="sc6">Btn</span><span class="sc5">;</span><span class="sc0">
+        </span><span class="sc6">BtnPrev</span><span class="sc0"> </span><span class="sc5">&lt;=</span><span class="sc0"> </span><span class="sc6">BtnCurr</span><span class="sc5">;</span><span class="sc0">
+        </span><span class="sc8">end</span><span class="sc0"> </span><span class="sc8">if</span><span class="sc5">;</span><span class="sc0">
+    </span><span class="sc8">end</span><span class="sc0"> </span><span class="sc8">process</span><span class="sc5">;</span><span class="sc0">
+    
+    </span><span class="sc1">--PARTIE 2 début</span><span class="sc0">
+    </span><span class="sc6">D</span><span class="sc5">(</span><span class="sc3">1</span><span class="sc5">)</span><span class="sc0"> </span><span class="sc5">&lt;=</span><span class="sc0"> </span><span class="sc5">(</span><span class="sc9">NOT</span><span class="sc5">(</span><span class="sc6">Q</span><span class="sc5">(</span><span class="sc3">1</span><span class="sc5">))</span><span class="sc0"> </span><span class="sc9">and</span><span class="sc0"> </span><span class="sc6">Q</span><span class="sc5">(</span><span class="sc3">0</span><span class="sc5">))</span><span class="sc0"> </span><span class="sc9">or</span><span class="sc0"> </span><span class="sc5">((</span><span class="sc6">Q</span><span class="sc5">(</span><span class="sc3">1</span><span class="sc5">)</span><span class="sc0"> </span><span class="sc9">and</span><span class="sc0"> </span><span class="sc9">NOT</span><span class="sc5">(</span><span class="sc6">Q</span><span class="sc5">(</span><span class="sc3">0</span><span class="sc5">)))</span><span class="sc0">
+    </span><span class="sc9">and</span><span class="sc0"> </span><span class="sc5">(</span><span class="sc6">BtnCurr</span><span class="sc0"> </span><span class="sc9">or</span><span class="sc0"> </span><span class="sc6">BtnPrev</span><span class="sc5">));</span><span class="sc0">
+    
+    </span><span class="sc6">D</span><span class="sc5">(</span><span class="sc3">0</span><span class="sc5">)</span><span class="sc0"> </span><span class="sc5">&lt;=</span><span class="sc0"> </span><span class="sc5">(</span><span class="sc9">NOT</span><span class="sc5">(</span><span class="sc6">Q</span><span class="sc5">(</span><span class="sc3">1</span><span class="sc5">))</span><span class="sc0"> </span><span class="sc9">and</span><span class="sc0"> </span><span class="sc9">NOT</span><span class="sc5">(</span><span class="sc6">Q</span><span class="sc5">(</span><span class="sc3">0</span><span class="sc5">)))</span><span class="sc0"> </span><span class="sc9">and</span><span class="sc5">(</span><span class="sc6">BtnCurr</span><span class="sc0"> </span><span class="sc9">and</span><span class="sc0">
+    </span><span class="sc9">NOT</span><span class="sc5">(</span><span class="sc6">BtnPrev</span><span class="sc5">));</span><span class="sc0">
+    
+    </span><span class="sc8">process</span><span class="sc5">(</span><span class="sc6">CLK</span><span class="sc5">)</span><span class="sc0"> </span><span class="sc8">begin</span><span class="sc0">
+        </span><span class="sc8">if</span><span class="sc0"> </span><span class="sc11">RISING_EDGE</span><span class="sc0"> </span><span class="sc5">(</span><span class="sc6">CLK</span><span class="sc5">)</span><span class="sc8">then</span><span class="sc0">
+        </span><span class="sc6">Q</span><span class="sc5">(</span><span class="sc3">1</span><span class="sc5">)</span><span class="sc0"> </span><span class="sc5">&lt;=</span><span class="sc0"> </span><span class="sc6">D</span><span class="sc5">(</span><span class="sc3">1</span><span class="sc5">);</span><span class="sc0">
+        </span><span class="sc6">Q</span><span class="sc5">(</span><span class="sc3">0</span><span class="sc5">)</span><span class="sc0"> </span><span class="sc5">&lt;=</span><span class="sc0"> </span><span class="sc6">D</span><span class="sc5">(</span><span class="sc3">0</span><span class="sc5">);</span><span class="sc0">
+        </span><span class="sc8">end</span><span class="sc0"> </span><span class="sc8">if</span><span class="sc5">;</span><span class="sc0">
+    </span><span class="sc8">end</span><span class="sc0"> </span><span class="sc8">process</span><span class="sc5">;</span><span class="sc0">
+    </span><span class="sc1">-- PARTIE 2 fin</span><span class="sc0">
+    
+    </span><span class="sc1">-- PARTIE 3</span><span class="sc0">
+    </span><span class="sc6">EF</span><span class="sc0"> </span><span class="sc5">&lt;=</span><span class="sc0"> </span><span class="sc6">EP</span><span class="sc0"> </span><span class="sc9">XOR</span><span class="sc0"> </span><span class="sc6">Q</span><span class="sc5">(</span><span class="sc3">0</span><span class="sc5">);</span><span class="sc0">
+    
+    </span><span class="sc8">process</span><span class="sc5">(</span><span class="sc6">CLK</span><span class="sc5">)</span><span class="sc0"> </span><span class="sc8">begin</span><span class="sc0">
+        </span><span class="sc8">if</span><span class="sc0"> </span><span class="sc11">RISING_EDGE</span><span class="sc0"> </span><span class="sc5">(</span><span class="sc6">CLK</span><span class="sc5">)</span><span class="sc8">then</span><span class="sc0">
+        </span><span class="sc6">EP</span><span class="sc0"> </span><span class="sc5">&lt;=</span><span class="sc0"> </span><span class="sc6">EF</span><span class="sc5">;</span><span class="sc0">
+        </span><span class="sc8">end</span><span class="sc0"> </span><span class="sc8">if</span><span class="sc5">;</span><span class="sc0">
+    </span><span class="sc8">end</span><span class="sc0"> </span><span class="sc8">process</span><span class="sc5">;</span><span class="sc0">
+    
+    </span><span class="sc6">Detect</span><span class="sc0"> </span><span class="sc5">&lt;=</span><span class="sc0"> </span><span class="sc6">Q</span><span class="sc5">(</span><span class="sc3">0</span><span class="sc5">);</span><span class="sc0">
+    </span><span class="sc6">Niveau</span><span class="sc0"> </span><span class="sc5">&lt;=</span><span class="sc0"> </span><span class="sc6">EP</span><span class="sc5">;</span><span class="sc0">
+    
+</span><span class="sc8">end</span><span class="sc0"> </span><span class="sc6">Behavioral</span><span class="sc5">;</span><span class="sc0">
+</span></div></body>
+</html>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.2 (64-bit)
+# SW Build 2615518 on Fri Aug  9 15:55:25 MDT 2019
+# IP Build 2614745 on Fri Aug  9 20:55:02 MDT 2019
+# Start of session at: Tue Jan  4 12:06:45 2022
+# Process ID: 2348
+# Current directory: C:/Users/fahdrafi28/Documents/TPNUM_TP3/TPNUM.runs/synth_1
+# Command line: vivado.exe -log chrono_SW.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source chrono_SW.tcl
+# Log file: C:/Users/fahdrafi28/Documents/TPNUM_TP3/TPNUM.runs/synth_1/chrono_SW.vds
+# Journal file: C:/Users/fahdrafi28/Documents/TPNUM_TP3/TPNUM.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source chrono_SW.tcl -notrace

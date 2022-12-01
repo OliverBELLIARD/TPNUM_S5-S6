@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.2 (64-bit)
+# SW Build 2615518 on Fri Aug  9 15:55:25 MDT 2019
+# IP Build 2614745 on Fri Aug  9 20:55:02 MDT 2019
+# Start of session at: Tue Nov  9 10:34:10 2021
+# Process ID: 3016
+# Current directory: C:/Users/fahdrafi28/Documents/TPNUM/TPNUM.runs/impl_1
+# Command line: vivado.exe -log Disp1Digit.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Disp1Digit.tcl -notrace
+# Log file: C:/Users/fahdrafi28/Documents/TPNUM/TPNUM.runs/impl_1/Disp1Digit.vdi
+# Journal file: C:/Users/fahdrafi28/Documents/TPNUM/TPNUM.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Disp1Digit.tcl -notrace

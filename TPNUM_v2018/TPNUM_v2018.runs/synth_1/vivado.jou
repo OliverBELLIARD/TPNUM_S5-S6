@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Nov 16 15:13:19 2021
+# Process ID: 11084
+# Current directory: C:/Users/olire/Documents/workspace_VHDL/TPNUM_S5/TPNUM_v2018/TPNUM_v2018.runs/synth_1
+# Command line: vivado.exe -log Disp1Digit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Disp1Digit.tcl
+# Log file: C:/Users/olire/Documents/workspace_VHDL/TPNUM_S5/TPNUM_v2018/TPNUM_v2018.runs/synth_1/Disp1Digit.vds
+# Journal file: C:/Users/olire/Documents/workspace_VHDL/TPNUM_S5/TPNUM_v2018/TPNUM_v2018.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Disp1Digit.tcl -notrace

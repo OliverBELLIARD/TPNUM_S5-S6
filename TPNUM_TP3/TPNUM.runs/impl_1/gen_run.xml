@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1638866551">
+  <File Type="PA-DCP" Name="Disp4D.dcp"/>
+  <File Type="OPT-HWDEF" Name="Disp4D.hwdef"/>
+  <File Type="PA-TCL" Name="Disp4D.tcl"/>
+  <File Type="BITSTR-BMM" Name="Disp4D_bd.bmm"/>
+  <File Type="OPT-DCP" Name="Disp4D_opt.dcp"/>
+  <File Type="REPORTS-TCL" Name="Disp4D_reports.tcl"/>
+  <File Type="PWROPT-DCP" Name="Disp4D_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="Disp4D_placed.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Disp4D_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Disp4D_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Disp4D.bin"/>
+  <File Type="PHYSOPT-DCP" Name="Disp4D_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Disp4D.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Disp4D_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Disp4D_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Disp4D_routed_bb.dcp"/>
+  <File Type="BITSTR-LTX" Name="Disp4D.ltx"/>
+  <File Type="BITSTR-MMI" Name="Disp4D.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="Disp4D.sysdef"/>
+  <File Type="ROUTE-TIMING-PB" Name="Disp4D_timing_summary_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Disp4D_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Disp4D_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="Disp4D.bit"/>
+  <File Type="BITSTR-RBT" Name="Disp4D.rbt"/>
+  <File Type="BITSTR-NKY" Name="Disp4D.nky"/>
+  <File Type="BG-BGN" Name="Disp4D.bgn"/>
+  <File Type="BG-DRC" Name="Disp4D.drc"/>
+  <File Type="RDI-RDI" Name="Disp4D.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Cmpt0to3.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Disp1Digit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MUX4x4v1x4.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Disp1of4Digits.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TICK_1ms.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Disp4D.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Disp4D"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/TPNUM/Disp1Digit_Basys3.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/Disp1Digit_Basys3.xdc"/>
+        <Attr Name="ImportTime" Val="1636447427"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/Disp1of4Digits_Basys3.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/Disp1of4Digits_Basys3.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

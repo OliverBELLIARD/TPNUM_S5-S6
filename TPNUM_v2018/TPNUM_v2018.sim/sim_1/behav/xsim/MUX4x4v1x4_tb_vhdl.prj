@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../TPNUM_v2018.srcs/sources_1/new/MUX4x4v1x4.vhd" \
+"../../../../TPNUM_v2018.srcs/sim_1/new/MUX4x4v1x4_tb.vhd" \
+
+# Do not sort compile order
+nosort

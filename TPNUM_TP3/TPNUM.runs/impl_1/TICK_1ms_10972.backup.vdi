@@ -1,0 +1,651 @@
+#-----------------------------------------------------------
+# Vivado v2019.1.2 (64-bit)
+# SW Build 2615518 on Fri Aug  9 15:55:25 MDT 2019
+# IP Build 2614745 on Fri Aug  9 20:55:02 MDT 2019
+# Start of session at: Tue Dec  7 09:35:52 2021
+# Process ID: 10972
+# Current directory: U:/Documents/TPNUM/TPNUM.runs/impl_1
+# Command line: vivado.exe -log TICK_1ms.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source TICK_1ms.tcl -notrace
+# Log file: U:/Documents/TPNUM/TPNUM.runs/impl_1/TICK_1ms.vdi
+# Journal file: U:/Documents/TPNUM/TPNUM.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source TICK_1ms.tcl -notrace
+Command: link_design -top TICK_1ms -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc]
+WARNING: [Vivado 12-584] No ports matched 'A[0]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[0]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[1]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[1]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[2]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[2]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[3]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'A[3]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[0]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[0]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[1]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[1]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[2]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[2]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[3]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[3]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C[0]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C[0]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C[1]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C[1]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C[2]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C[2]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C[3]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C[3]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'D[0]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'D[0]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'D[1]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'D[1]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'D[2]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'D[2]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'D[3]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'D[3]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'N[1]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'N[1]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'N[0]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'N[0]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S[6]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:96]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S[6]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S[5]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S[5]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S[4]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S[4]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S[3]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S[3]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S[2]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S[2]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S[1]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:116]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:116]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S[1]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:117]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:117]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S[0]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:120]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:120]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'S[0]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:121]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:121]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ENAN[3]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:126]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:126]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ENAN[3]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:127]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:127]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ENAN[2]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:130]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:130]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ENAN[2]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:131]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:131]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ENAN[1]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:134]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:134]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ENAN[1]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:135]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:135]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ENAN[0]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:138]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:138]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ENAN[0]'. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:139]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc:139]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [U:/Documents/TPNUM/TPNUM.srcs/constrs_1/new/Disp1of4Digits_Basys3.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 636.812 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+7 Infos, 58 Warnings, 58 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:13 . Memory (MB): peak = 640.781 ; gain = 340.094
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.443 . Memory (MB): peak = 659.246 ; gain = 18.465
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 268b5e899
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1174.957 ; gain = 515.711
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 268b5e899
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1317.160 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 268b5e899
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1317.160 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 2646351e7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 1317.160 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 2646351e7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 1317.160 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 2646351e7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.085 . Memory (MB): peak = 1317.160 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 2646351e7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.101 . Memory (MB): peak = 1317.160 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1317.160 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1364de08e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.142 . Memory (MB): peak = 1317.160 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 1364de08e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1317.160 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 1364de08e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1317.160 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1317.160 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 1364de08e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1317.160 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+24 Infos, 58 Warnings, 58 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1317.160 ; gain = 676.379
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1317.160 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.197 . Memory (MB): peak = 1317.160 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'U:/Documents/TPNUM/TPNUM.runs/impl_1/TICK_1ms_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file TICK_1ms_drc_opted.rpt -pb TICK_1ms_drc_opted.pb -rpx TICK_1ms_drc_opted.rpx
+Command: report_drc -file TICK_1ms_drc_opted.rpt -pb TICK_1ms_drc_opted.pb -rpx TICK_1ms_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/PROGRAMS/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file U:/Documents/TPNUM/TPNUM.runs/impl_1/TICK_1ms_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1317.160 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: f4985368
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1317.160 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1317.160 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: ea16456e
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.646 . Memory (MB): peak = 1317.160 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 1d95f5dc9
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.676 . Memory (MB): peak = 1317.160 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 1d95f5dc9
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.680 . Memory (MB): peak = 1317.160 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 1d95f5dc9
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.685 . Memory (MB): peak = 1317.160 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 1d95f5dc9
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.697 . Memory (MB): peak = 1317.160 ; gain = 0.000
+
+Phase 2.2 Global Placement Core
+WARNING: [Place 46-29] place_design is not in timing mode. Skip physical synthesis in placer
+Phase 2.2 Global Placement Core | Checksum: 149f5ce64
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1317.160 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 149f5ce64
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1317.160 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 149f5ce64
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1317.160 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1c9f79d36
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1317.160 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 13b7f0a1f
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1317.160 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 13b7f0a1f
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1317.160 ; gain = 0.000
+
+Phase 3.5 Small Shape Detail Placement
+Phase 3.5 Small Shape Detail Placement | Checksum: 1d2d914e5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1317.160 ; gain = 0.000
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 1d2d914e5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1317.160 ; gain = 0.000
+
+Phase 3.7 Pipeline Register Optimization
+Phase 3.7 Pipeline Register Optimization | Checksum: 1d2d914e5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1317.160 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 1d2d914e5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1317.160 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+Phase 4.1 Post Commit Optimization | Checksum: 1d2d914e5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1317.160 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1d2d914e5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1317.160 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 1d2d914e5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1317.160 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1317.160 ; gain = 0.000
+Phase 4.4 Final Placement Cleanup | Checksum: 19a11857a
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1317.160 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 19a11857a
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1317.160 ; gain = 0.000
+Ending Placer Task | Checksum: f41b209d
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1317.160 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+42 Infos, 59 Warnings, 58 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1317.160 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.226 . Memory (MB): peak = 1329.062 ; gain = 11.902
+INFO: [Common 17-1381] The checkpoint 'U:/Documents/TPNUM/TPNUM.runs/impl_1/TICK_1ms_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file TICK_1ms_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 1329.062 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file TICK_1ms_utilization_placed.rpt -pb TICK_1ms_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file TICK_1ms_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1329.062 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: c0cd266e ConstDB: 0 ShapeSum: 334dfa2f RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: dc83f306
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1426.789 ; gain = 85.715
+Post Restoration Checksum: NetGraph: 13c88427 NumContArr: c8bb6edf Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+INFO: [Route 35-64] No timing constraints were detected. The router will operate in resource-optimization mode.
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: dc83f306
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1432.801 ; gain = 91.727
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: dc83f306
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1432.801 ; gain = 91.727
+ Number of Nodes with overlaps = 0
+Phase 2 Router Initialization | Checksum: 17cfb23b0
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1436.180 ; gain = 95.105
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 25
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 25
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 10095a4cc
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1437.551 ; gain = 96.477
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 0
+Phase 4.1 Global Iteration 0 | Checksum: 9e81f140
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1437.551 ; gain = 96.477
+Phase 4 Rip-up And Reroute | Checksum: 9e81f140
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1437.551 ; gain = 96.477
+
+Phase 5 Delay and Skew Optimization
+Phase 5 Delay and Skew Optimization | Checksum: 9e81f140
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1437.551 ; gain = 96.477
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+Phase 6.1 Hold Fix Iter | Checksum: 9e81f140
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1437.551 ; gain = 96.477
+Phase 6 Post Hold Fix | Checksum: 9e81f140
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1437.551 ; gain = 96.477
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.00119589 %
+  Global Horizontal Routing Utilization  = 0.000260281 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 3.6036%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 1.8018%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 0%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 1.47059%, No Congested Regions.
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+
+Phase 7 Route finalize | Checksum: 9e81f140
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1437.551 ; gain = 96.477
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 9e81f140
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1439.582 ; gain = 98.508
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 792fdf1c
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1439.582 ; gain = 98.508
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 1439.582 ; gain = 98.508
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+55 Infos, 59 Warnings, 58 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 1439.582 ; gain = 110.520
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1439.582 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.204 . Memory (MB): peak = 1449.480 ; gain = 9.898
+INFO: [Common 17-1381] The checkpoint 'U:/Documents/TPNUM/TPNUM.runs/impl_1/TICK_1ms_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file TICK_1ms_drc_routed.rpt -pb TICK_1ms_drc_routed.pb -rpx TICK_1ms_drc_routed.rpx
+Command: report_drc -file TICK_1ms_drc_routed.rpt -pb TICK_1ms_drc_routed.pb -rpx TICK_1ms_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file U:/Documents/TPNUM/TPNUM.runs/impl_1/TICK_1ms_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file TICK_1ms_methodology_drc_routed.rpt -pb TICK_1ms_methodology_drc_routed.pb -rpx TICK_1ms_methodology_drc_routed.rpx
+Command: report_methodology -file TICK_1ms_methodology_drc_routed.rpt -pb TICK_1ms_methodology_drc_routed.pb -rpx TICK_1ms_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file U:/Documents/TPNUM/TPNUM.runs/impl_1/TICK_1ms_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file TICK_1ms_power_routed.rpt -pb TICK_1ms_power_summary_routed.pb -rpx TICK_1ms_power_routed.rpx
+Command: report_power -file TICK_1ms_power_routed.rpt -pb TICK_1ms_power_summary_routed.pb -rpx TICK_1ms_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+WARNING: [Power 33-232] No user defined clocks were found in the design! Power estimation will be inaccurate until this is corrected.
+Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+67 Infos, 60 Warnings, 58 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file TICK_1ms_route_status.rpt -pb TICK_1ms_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file TICK_1ms_timing_summary_routed.rpt -pb TICK_1ms_timing_summary_routed.pb -rpx TICK_1ms_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file TICK_1ms_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file TICK_1ms_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file TICK_1ms_bus_skew_routed.rpt -pb TICK_1ms_bus_skew_routed.pb -rpx TICK_1ms_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Common 17-206] Exiting Vivado at Tue Dec  7 09:36:51 2021...

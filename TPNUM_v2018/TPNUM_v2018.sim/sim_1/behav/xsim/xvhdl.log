@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/olire/Documents/workspace_VHDL/TPNUM_S5/TPNUM_v2018/TPNUM_v2018.srcs/sources_1/new/MUX4x4v1x4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX4x4v1x4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/olire/Documents/workspace_VHDL/TPNUM_S5/TPNUM_v2018/TPNUM_v2018.srcs/sim_1/new/MUX4x4v1x4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX4x4v1x4_tb

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "U:/Documents/TPNUM/TPNUM.srcs/sources_1/new/Cmpt0to3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Cmpt0to3'
+INFO: [VRFC 10-163] Analyzing VHDL file "U:/Documents/TPNUM/TPNUM.srcs/sim_1/new/Cmpt0to3_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Cmpt0to3_tb'
